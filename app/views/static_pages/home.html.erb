@@ -1,9 +1,11 @@
 <% provide(:title, 'Home') %>
-
+<div class="center hero-unit">
   <h1>Главная Страница</h1>
-  <p>Эта страница Тест 
+  <h2>Эта страница Тест 
     <a href="https://rubygems.org"> Ruby Gems</a>
     sample site 
-  </p>
-</body>
-</html>
+  </h2>
+  <%= link_to "Войти в систему", '#', class: "btn btn-large btn-primary" %>
+  </div>
+  <%= link_to image_tag("logo3.jpeg", alt:"railspng"), 'https://rubygems.org/' %>
+
